@@ -19,3 +19,8 @@ git remode add sh_skriptimine git@github.com:intz004/sh_skriptimine.git
 
 f) git remote kontroll
 git remote v
+
+
+IF EVERYTHING ELSE FAILS:
+
+ssh -T git@github.com 
