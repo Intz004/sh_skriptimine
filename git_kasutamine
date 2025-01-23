@@ -13,3 +13,9 @@ mkdir skriptimine
 
 d) tekita lokaalne repositoorium git süsteemi jaoks antud kaustas
 git init
+
+e) remote seadistamine
+git remode add sh_skriptimine git@github.com:intz004/sh_skriptimine.git
+
+f) git remote kontroll
+git remote v
