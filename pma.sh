@@ -34,10 +34,10 @@ else
     	echo "${RED}Apache2 on juba varasemalt paigaldatud.${NC}"
 #	sudo systemctl status apache2
 fi
-if  -f "$PMA" ; then
+if [ -d "$PMA" ]; then
 	echo "${RED}PMA varasemalt juba paigaldatud${NC}"
 else
-	sudo apt install phpmyadmin
+	sudo apt install phpmyadmin php -y
 	echo "${RED}PMA paigaldatud!${NC}"
 fi
 
